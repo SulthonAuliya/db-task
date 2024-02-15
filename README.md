@@ -20,4 +20,3 @@ This is Docker repo for db-task using postgresql for muuse hiring process
   ```
     docker exec -i db-task   psql -U postgres -d reporting < runtime/docker-entrypoint-initdb.d/002_load_data.sql
   ```
-
